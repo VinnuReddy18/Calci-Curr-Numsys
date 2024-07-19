@@ -102,7 +102,6 @@ body {
     color: #e74c3c;
 }
 
-/* Hover effect */
 #clear, #del, .oper, #equalButn, .numbers:hover {
     background-color: #0056b3;
     color: #fff;
@@ -110,7 +109,6 @@ body {
     transition: transform 0.3s, background-color 0.3s, color 0.3s;
 }
 
-/* Active effect for buttons when clicked */
 #clear, #del, .oper, #equalButn, .numbers:active {
     background-color: #003c80;
     color: #fff;
@@ -118,7 +116,6 @@ body {
     transition: transform 0.1s, background-color 0.1s, color 0.1s;
 }
 
-/* for devices with a max width of 600px */
 @media only screen and (max-width: 600px) {
     .inputBox {
         width: 280px;
@@ -132,7 +129,6 @@ body {
     }
 }
 
-/* Media query for devices with a max width of 400px */
 @media only screen and (max-width: 400px) {
     .inputBox {
         width: 240px;
